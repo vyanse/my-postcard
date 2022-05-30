@@ -1,0 +1,50 @@
+body {
+	background: black;
+	font-family: "Handlee", cursive;
+}
+
+.postcard {
+	background: white;
+	width: 400px;
+	height: 300px;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-top: 10px;
+}
+.postcard-header {
+	display: flex;
+}
+h1 {
+	width: 345px;
+	margin: 0px;
+}
+.img-4geeks {
+	width: 50px;
+	height: 50px;
+}
+.postcard-body {
+	display: flex;
+}
+.body-left {
+	padding: 5px;
+}
+.body-right {
+	padding: 20px;
+}
+input {
+	border: none;
+	border-bottom: grey;
+	padding-bottom: 5px;
+	border-bottom: 1px solid;
+}
+.postcard-footer {
+	text-align: center;
+	padding: 5%;
+}
+button {
+	background-color: gray;
+	font-size: 20px;
+}
